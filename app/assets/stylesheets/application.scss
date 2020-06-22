@@ -19,8 +19,19 @@ div.field_with_errors {
   }
 }
 
+// 共通
 .base-container {
   @extend .container-fluid;
   max-width: var(--breakpoint-lg);
   padding: 30px 15px;
+}
+
+body {
+  padding-top: 56px;
+}
+
+// テーブル
+th,
+td {
+  vertical-align: middle !important;
 }
